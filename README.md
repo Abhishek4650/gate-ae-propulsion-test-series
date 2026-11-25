@@ -60,18 +60,20 @@ The mock test link works once GitHub Pages is turned on for this repository (see
 
 ## Marking scheme and standard data
 
-- **MCQ:** +1 or +2 if correct. A wrong answer costs 1/3 mark (1-mark question) or 2/3 mark (2-mark question).
+- **MCQ:** +1 or +2 if correct. A wrong answer costs $`1/3`$ mark (1-mark question) or $`2/3`$ mark (2-mark question).
 - **MSQ:** full marks only for exactly the correct set of options. There is no negative marking.
 - **NAT:** full marks if your value is inside the accepted range. There is no negative marking.
 - **Standard data** (unless a question says otherwise):
-  - Air: γ = 1.4, cp = 1.005 kJ/kg·K, R = 287 J/kg·K
-  - Hot gas: γ = 4/3, cpg = 1.148 kJ/kg·K
-  - g0 = 9.81 m/s²
+  - Air: $`\gamma = 1.4`$, $`c_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$
+  - Hot gas: $`\gamma = 4/3`$, $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$
+  - $`g_0 = 9.81\ \mathrm{m/s^2}`$
 - **Angles** in axial machines are measured from the axial direction.
+
+Formulas are typeset as in textbooks and the GATE paper ($`T_{01}`$, $`\eta_{\mathrm{c}}`$, $`\dot m_{\mathrm{a}}`$) in the markdown files, the PDFs and the online mock.
 
 ## Hosting the mock test
 
-`index.html` is a single self-contained page with all the test data inside it, and it needs no server. To publish it:
+`index.html` is a single page with all the test data inside it, and it needs no server. It loads MathJax from the jsDelivr CDN to typeset the formulas, and shows plain-text notation if MathJax cannot load. To publish it:
 
 1. Open **Settings → Pages** in this repository.
 2. Under "Build and deployment", set **Source** to "Deploy from a branch".
