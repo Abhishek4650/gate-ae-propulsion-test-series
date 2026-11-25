@@ -64,12 +64,12 @@ The mock test link works once GitHub Pages is turned on for this repository (see
 - **MSQ:** full marks only for exactly the correct set of options. There is no negative marking.
 - **NAT:** full marks if your value is inside the accepted range. There is no negative marking.
 - **Standard data** (unless a question says otherwise):
-  - Air: $`\gamma = 1.4`$, $`c_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$
-  - Hot gas: $`\gamma = 4/3`$, $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$
+  - Air: $`\gamma = 1.4`$, $`C_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$
+  - Hot gas: $`\gamma = 4/3`$, $`C_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$
   - $`g_0 = 9.81\ \mathrm{m/s^2}`$
 - **Angles** in axial machines are measured from the axial direction.
 
-Formulas are typeset as in textbooks and the GATE paper ($`T_{01}`$, $`\eta_{\mathrm{c}}`$, $`\dot m_{\mathrm{a}}`$) in the markdown files, the PDFs and the online mock.
+Formulas are typeset as in textbooks and the GATE paper, with stacked fractions such as $`\displaystyle \frac{P_0}{P} = \left(\frac{T_0}{T}\right)^{\frac{\gamma}{\gamma - 1}}`$, in the markdown files, the PDFs and the online mock. Symbols follow the handwritten notes the set was built from: $`C_p`$ and $`C_{p\mathrm{g}}`$ for specific heats, $`C_{\mathrm{i}}`$ and $`C_{\mathrm{j}}`$ for flight and jet speed, $`P_{\mathrm{a}}`$ and $`P_{\mathrm{e}}`$ for ambient and exit pressure, $`\beta`$ for bypass ratio, $`\eta_{\mathrm{in}}`$ and $`\eta_{\mathrm{nz}}`$ for intake and nozzle efficiency, and $`\Omega`$ for the work-done factor.
 
 ## Hosting the mock test
 

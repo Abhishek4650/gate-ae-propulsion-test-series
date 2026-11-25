@@ -9,9 +9,9 @@ There are six numerical tests in GATE style and four conceptual tests you answer
 Take any test online with a timer and automatic GATE scoring at [Propulsion Mock Tests](https://abhishek4650.github.io/gate-ae-propulsion-test-series/). Worked answers are in [GATE AE Propulsion Test Series: Solutions](solutions.md), and topic-wise practice is in [GATE AE Propulsion: Solved Examples](solved-examples.md).
 
 - Sit each test in one go, timed, with only a basic calculator like GATE's virtual one.
-- Marking follows GATE. A wrong MCQ costs $`1/3`$ mark (1-mark question) or $`2/3`$ mark (2-mark question). MSQ and NAT have no negative marking, but an MSQ scores only if you pick exactly the correct set.
+- Marking follows GATE. A wrong MCQ costs $`\displaystyle \frac{1}{3}`$ mark (1-mark question) or $`\displaystyle \frac{2}{3}`$ mark (2-mark question). MSQ and NAT have no negative marking, but an MSQ scores only if you pick exactly the correct set.
 - NAT answers are accepted within a small range, so carry 3 to 4 significant figures.
-- Standard data unless stated: air $`\gamma = 1.4`$, $`c_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$; hot gas $`\gamma = 4/3`$, $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$; $`g_0 = 9.81\ \mathrm{m/s^2}`$.
+- Standard data unless stated: air $`\gamma = 1.4`$, $`C_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$; hot gas $`\displaystyle \gamma = \frac{4}{3}`$, $`C_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$; $`g_0 = 9.81\ \mathrm{m/s^2}`$.
 - In axial machines, flow and blade angles are measured from the axial direction.
 
 | Test | Level | Topics | Questions | Marks | Time |
@@ -37,7 +37,7 @@ Air at a static temperature of 250 K moves at Mach 2.0. Find its stagnation temp
 
 **Q2 · MCQ · 1 mark**
 
-A gas has $`c_p = 1.10\ \mathrm{kJ/kg{\cdot}K}`$ and $`R = 0.30\ \mathrm{kJ/kg{\cdot}K}`$. Its ratio of specific heats is:
+A gas has $`C_p = 1.10\ \mathrm{kJ/kg{\cdot}K}`$ and $`R = 0.30\ \mathrm{kJ/kg{\cdot}K}`$. Its ratio of specific heats is:
 
 - (A) 1.273
 - (B) 1.375
@@ -67,7 +67,7 @@ An ideal Brayton cycle has compressor inlet temperature 288 K and turbine inlet 
 
 **Q7 · NAT · 2 marks**
 
-A simple gas turbine has $`T_1 = 300\ \mathrm{K}`$, pressure ratio 10, compressor isentropic efficiency 0.85, turbine inlet temperature 1400 K and turbine isentropic efficiency 0.90. Treat the working fluid as air throughout ($`c_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma = 1.4`$) and neglect pressure losses and fuel mass. Find the net specific work in kJ/kg.
+A simple gas turbine has $`T_1 = 300\ \mathrm{K}`$, pressure ratio 10, compressor isentropic efficiency 0.85, turbine inlet temperature 1400 K and turbine isentropic efficiency 0.90. Treat the working fluid as air throughout ($`C_p = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma = 1.4`$) and neglect pressure losses and fuel mass. Find the net specific work in kJ/kg.
 
 **Q8 · NAT · 2 marks**
 
@@ -75,7 +75,7 @@ A turbojet flies at 220 m/s with an air mass flow of 40 kg/s and a fuel–air ra
 
 **Q9 · NAT · 2 marks**
 
-A turbine expands gas through a pressure ratio of 4 with a polytropic efficiency of 0.90. Find its isentropic efficiency $`(\gamma = 4/3)`$.
+A turbine expands gas through a pressure ratio of 4 with a polytropic efficiency of 0.90. Find its isentropic efficiency $`\displaystyle \left(\gamma = \frac{4}{3}\right)`$.
 
 **Q10 · NAT · 2 marks**
 
@@ -91,7 +91,7 @@ An aircraft flies at Mach 0.7 where the ambient temperature is 250 K. Find the s
 
 **Q2 · NAT · 1 mark**
 
-A normal shock stands in front of a pitot intake flying at Mach 1.5. Find the stagnation pressure ratio $`P_{02}/P_{01}`$ across the shock $`(\gamma = 1.4)`$.
+A normal shock stands in front of a pitot intake flying at Mach 1.5. Find the stagnation pressure ratio $`\displaystyle \frac{P_{02}}{P_{01}}`$ across the shock $`(\gamma = 1.4)`$.
 
 **Q3 · MCQ · 1 mark**
 
@@ -104,7 +104,7 @@ Air $`(\gamma = 1.4)`$ flows isentropically through a convergent nozzle with a s
 
 **Q4 · NAT · 1 mark**
 
-A combustor burns decane $`(\mathrm{C_{10}H_{22}})`$ at an overall fuel–air ratio of 0.025. Taking air as $`\mathrm{O_{2}} + 3.76\mathrm{N_{2}}`$, find the equivalence ratio.
+A combustor burns decane $`(\mathrm{C_{10}H_{22}})`$ at an overall fuel–air ratio of 0.025. Taking air as $`\mathrm{O_{2}} + 3.76 \mathrm{N_{2}}`$, find the equivalence ratio.
 
 **Q5 · MSQ · 1 mark**
 
@@ -117,23 +117,23 @@ Which statements about the air distribution in a gas turbine combustor are corre
 
 **Q6 · NAT · 2 marks**
 
-An aircraft flies at Mach 0.9 where $`p_{\mathrm{a}} = 30\ \mathrm{kPa}`$. The stagnation pressure measured at the compressor face is 50 kPa. Find the intake isentropic efficiency $`(\gamma = 1.4)`$.
+An aircraft flies at Mach 0.9 where $`P_{\mathrm{a}} = 30\ \mathrm{kPa}`$. The stagnation pressure measured at the compressor face is 50 kPa. Find the intake isentropic efficiency $`(\gamma = 1.4)`$.
 
 **Q7 · NAT · 2 marks**
 
-Gas $`(\gamma = 4/3)`$ at $`P_{04} = 250\ \mathrm{kPa}`$ and $`T_{04} = 950\ \mathrm{K}`$ enters a convergent nozzle with an isentropic efficiency of 0.97 and exhausts to 90 kPa. Find the static pressure at the nozzle exit in kPa.
+Gas $`\displaystyle \left(\gamma = \frac{4}{3}\right)`$ at $`P_{04} = 250\ \mathrm{kPa}`$ and $`T_{04} = 950\ \mathrm{K}`$ enters a convergent nozzle with an isentropic efficiency of 0.97 and exhausts to 90 kPa. Find the static pressure at the nozzle exit in kPa.
 
 **Q8 · NAT · 2 marks**
 
-Gas enters a convergent nozzle at $`T_{04} = 800\ \mathrm{K}`$ and $`P_{04} = 150\ \mathrm{kPa}`$ and exhausts to 100 kPa. The nozzle efficiency is 0.95 and the mass flow is 20 kg/s. Find the exit area in $`m^{2}`$ ($`c_{p\mathrm{g}} = 1148\ \mathrm{J/kg{\cdot}K}`$, $`\gamma = 4/3`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$).
+Gas enters a convergent nozzle at $`T_{04} = 800\ \mathrm{K}`$ and $`P_{04} = 150\ \mathrm{kPa}`$ and exhausts to 100 kPa. The nozzle efficiency is 0.95 and the mass flow is 20 kg/s. Find the exit area in $`m^{2}`$ ($`C_{p\mathrm{g}} = 1148\ \mathrm{J/kg{\cdot}K}`$, $`\displaystyle \gamma = \frac{4}{3}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$).
 
 **Q9 · NAT · 2 marks**
 
-Air enters a combustor at 700 K and the gas leaves at 1500 K. The fuel has a calorific value of 42,800 kJ/kg and the combustion efficiency is 0.97. Take $`c_{p\mathrm{a}} = 1.005\ \mathrm{kJ/kg{\cdot}K}`$ and $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$. Find the fuel–air ratio.
+Air enters a combustor at 700 K and the gas leaves at 1500 K. The fuel has a calorific value of 42,800 kJ/kg and the combustion efficiency is 0.97. Take $`C_{p\mathrm{a}} = 1.005\ \mathrm{kJ/kg{\cdot}K}`$ and $`C_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$. Find the fuel–air ratio.
 
 **Q10 · NAT · 2 marks**
 
-A pitot intake flies at Mach 1.8 where $`p_{\mathrm{a}} = 20\ \mathrm{kPa}`$, with a normal shock at its lip. The subsonic diffuser behind the shock has a stagnation pressure recovery of 0.98. Find the stagnation pressure at the compressor face in kPa $`(\gamma = 1.4)`$.
+A pitot intake flies at Mach 1.8 where $`P_{\mathrm{a}} = 20\ \mathrm{kPa}`$, with a normal shock at its lip. The subsonic diffuser behind the shock has a stagnation pressure recovery of 0.98. Find the stagnation pressure at the compressor face in kPa $`(\gamma = 1.4)`$.
 
 ## Test N3 · Intermediate · Turbojet, turbofan, turboprop, ramjet, afterburner and range
 
@@ -158,7 +158,7 @@ A ramjet produces no thrust when stationary because:
 
 **Q4 · NAT · 1 mark**
 
-A jet transport cruises at 250 m/s with $`L/D = 18`$ and $`\mathrm{TSFC} = 0.06\ \mathrm{kg/(N{\cdot}h)}`$. Its initial-to-final cruise weight ratio is 1.3. Find the Breguet range in km.
+A jet transport cruises at 250 m/s with $`\displaystyle \frac{L}{D} = 18`$ and $`\mathrm{TSFC} = 0.06\ \mathrm{kg/(N{\cdot}h)}`$. Its initial-to-final cruise weight ratio is 1.3. Find the Breguet range in km.
 
 **Q5 · MSQ · 1 mark**
 
@@ -171,11 +171,11 @@ The core of a turbofan is kept the same while its bypass ratio is increased. Whi
 
 **Q6 · NAT · 2 marks**
 
-A turbojet on a test bed has $`T_{01} = 288\ \mathrm{K}`$, compressor pressure ratio 6 and $`\eta_{\mathrm{c}} = 0.85`$. The turbine inlet temperature is 1150 K and $`\eta_{\mathrm{m}} = 0.99`$. The gas leaving the turbine expands in a convergent–divergent nozzle $`(\eta_{\mathrm{j}} = 0.95)`$ through a pressure ratio $`P_{04}/p_{\mathrm{a}} = 2.2`$ to ambient pressure. Find the jet velocity in m/s. Use $`c_{p\mathrm{a}} = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma_{\mathrm{a}} = 1.4`$, $`\gamma_{\mathrm{g}} = 4/3`$, and neglect fuel mass.
+A turbojet on a test bed has $`T_{01} = 288\ \mathrm{K}`$, compressor pressure ratio 6 and $`\eta_{\mathrm{c}} = 0.85`$. The turbine inlet temperature is 1150 K and $`\eta_{\mathrm{m}} = 0.99`$. The gas leaving the turbine expands in a convergent–divergent nozzle $`(\eta_{\mathrm{nz}} = 0.95)`$ through a pressure ratio $`\displaystyle \frac{P_{04}}{P_{\mathrm{a}}} = 2.2`$ to ambient pressure. Find the jet velocity in m/s. Use $`C_{p\mathrm{a}} = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`C_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma_{\mathrm{a}} = 1.4`$, $`\displaystyle \gamma_{\mathrm{g}} = \frac{4}{3}`$, and neglect fuel mass.
 
 **Q7 · NAT · 2 marks**
 
-A separate-exhaust turbofan with $`B = 6`$ and a total airflow of 350 kg/s flies at 240 m/s. The cold jet leaves at 330 m/s and the hot jet at 520 m/s, both fully expanded. The fuel–air ratio is 0.02 based on core air. Find the net thrust in kN.
+A separate-exhaust turbofan with $`\beta = 6`$ and a total airflow of 350 kg/s flies at 240 m/s. The cold jet leaves at 330 m/s and the hot jet at 520 m/s, both fully expanded. The fuel–air ratio is 0.02 based on core air. Find the net thrust in kN.
 
 **Q8 · NAT · 2 marks**
 
@@ -183,7 +183,7 @@ An ideal ramjet flies at Mach 2.5 where $`T_{\mathrm{a}} = 220\ \mathrm{K}`$. Th
 
 **Q9 · NAT · 2 marks**
 
-An afterburner raises the stagnation temperature of the turbine exhaust from 1000 K to 2000 K. Its combustion efficiency is 0.92 and the fuel's calorific value is 43,000 kJ/kg. Taking $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$ at both ends, find the afterburner fuel flow per kg of gas entering it.
+An afterburner raises the stagnation temperature of the turbine exhaust from 1000 K to 2000 K. Its combustion efficiency is 0.92 and the fuel's calorific value is 43,000 kJ/kg. Taking $`C_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$ at both ends, find the afterburner fuel flow per kg of gas entering it.
 
 **Q10 · NAT · 2 marks**
 
@@ -199,7 +199,7 @@ An axial compressor rotor has a mean blade diameter of 0.6 m and runs at 12,000 
 
 **Q2 · NAT · 1 mark**
 
-A centrifugal compressor has an impeller tip speed of 400 m/s, slip factor 0.9 and power input factor 1.0. Air enters without prewhirl. Find the stagnation temperature rise in K $`(c_p = 1005\ \mathrm{J/kg{\cdot}K})`$.
+A centrifugal compressor has an impeller tip speed of 400 m/s, slip factor 0.9 and power input factor 1.0. Air enters without prewhirl. Find the stagnation temperature rise in K $`(C_p = 1005\ \mathrm{J/kg{\cdot}K})`$.
 
 **Q3 · MCQ · 1 mark**
 
@@ -225,7 +225,7 @@ Which statements about axial turbine stages are correct?
 
 **Q6 · NAT · 2 marks**
 
-An axial compressor stage has $`U = 300\ \mathrm{m/s}`$ and $`C_{\mathrm{a}} = 165\ \mathrm{m/s}`$. The rotor relative angles are $`\beta_1 = 58^\circ`$ and $`\beta_2 = 42^\circ`$ from the axial direction, and the work-done factor is 0.95. With $`T_{01} = 300\ \mathrm{K}`$ and a stage isentropic efficiency of 0.89, find the stage stagnation pressure ratio ($`c_p = 1005\ \mathrm{J/kg{\cdot}K}`$, $`\gamma = 1.4`$).
+An axial compressor stage has $`U = 300\ \mathrm{m/s}`$ and $`C_{\mathrm{a}} = 165\ \mathrm{m/s}`$. The rotor relative angles are $`\beta_1 = 58^\circ`$ and $`\beta_2 = 42^\circ`$ from the axial direction, and the work-done factor is 0.95. With $`T_{01} = 300\ \mathrm{K}`$ and a stage isentropic efficiency of 0.89, find the stage stagnation pressure ratio ($`C_p = 1005\ \mathrm{J/kg{\cdot}K}`$, $`\gamma = 1.4`$).
 
 **Q7 · NAT · 2 marks**
 
@@ -233,7 +233,7 @@ An axial compressor stage with inlet guide vanes has $`\alpha_1 = 25^\circ`$, $`
 
 **Q8 · NAT · 2 marks**
 
-A centrifugal compressor has 20 radial vanes, an impeller tip diameter of 0.45 m and runs at 20,000 rpm. The power input factor is 1.04 and the overall isentropic efficiency is 0.82. Air enters axially at $`T_{01} = 288\ \mathrm{K}`$. Using Stanitz's slip factor, find the stagnation pressure ratio ($`c_p = 1005\ \mathrm{J/kg{\cdot}K}`$, $`\gamma = 1.4`$).
+A centrifugal compressor has 20 radial vanes, an impeller tip diameter of 0.45 m and runs at 20,000 rpm. The power input factor is 1.04 and the overall isentropic efficiency is 0.82. Air enters axially at $`T_{01} = 288\ \mathrm{K}`$. Using Stanitz's slip factor, find the stagnation pressure ratio ($`C_p = 1005\ \mathrm{J/kg{\cdot}K}`$, $`\gamma = 1.4`$).
 
 **Q9 · NAT · 2 marks**
 
@@ -241,7 +241,7 @@ An axial turbine stage has $`U = 340\ \mathrm{m/s}`$ and $`C_{\mathrm{a}} = 240\
 
 **Q10 · NAT · 2 marks**
 
-A single-spool engine's turbine nozzle guide vanes are choked and the combustor pressure-loss fraction is fixed. At one condition the compressor pressure ratio is 12 with $`T_{03}/T_{01} = 4.5`$. The fuel flow is raised so that $`T_{03}/T_{01} = 5.0`$ while the compressor's non-dimensional mass flow stays the same. Find the new compressor pressure ratio.
+A single-spool engine's turbine nozzle guide vanes are choked and the combustor pressure-loss fraction is fixed. At one condition the compressor pressure ratio is 12 with $`\displaystyle \frac{T_{03}}{T_{01}} = 4.5`$. The fuel flow is raised so that $`\displaystyle \frac{T_{03}}{T_{01}} = 5.0`$ while the compressor's non-dimensional mass flow stays the same. Find the new compressor pressure ratio.
 
 ## Test N5 · Intermediate–advanced · Rocket propulsion
 
@@ -266,7 +266,7 @@ For fixed chamber conditions and throat area, a rocket nozzle gives maximum thru
 
 **Q4 · NAT · 1 mark**
 
-$`A \mathrm{LOX}/\mathrm{LH_{2}}`$ engine runs at an oxidiser-to-fuel mixture ratio of 6 with a total propellant flow of 210 kg/s. Find the hydrogen mass flow in kg/s.
+A LOX/LH2 engine runs at an oxidiser-to-fuel mixture ratio of 6 with a total propellant flow of 210 kg/s. Find the hydrogen mass flow in kg/s.
 
 **Q5 · MSQ · 1 mark**
 
@@ -287,15 +287,15 @@ A rocket engine must produce 400 kN at a chamber pressure of 6 MPa. Its characte
 
 **Q8 · NAT · 2 marks**
 
-Combustion products with $`\gamma = 1.25`$ and molar mass 20 kg/kmol leave a chamber at $`T_0 = 3400\ \mathrm{K}`$ and expand isentropically through a pressure ratio $`P_{\mathrm{c}}/p_{\mathrm{e}} = 100`$. Find the exhaust velocity in m/s (universal gas constant 8314 J/kmol·K).
+Combustion products with $`\gamma = 1.25`$ and molar mass 20 kg/kmol leave a chamber at $`T_0 = 3400\ \mathrm{K}`$ and expand isentropically through a pressure ratio $`\displaystyle \frac{P_{\mathrm{c}}}{P_{\mathrm{e}}} = 100`$. Find the exhaust velocity in m/s (universal gas constant 8314 J/kmol·K).
 
 **Q9 · NAT · 2 marks**
 
-A two-stage launcher has identical stages. Each has a payload ratio $`\lambda = m_{\mathrm{PL}}/(m_{\mathrm{p}} + m_{\mathrm{s}})`$​$`{}= 0.15`$, a structural ratio $`\varepsilon = m_{\mathrm{s}}/(m_{\mathrm{p}} + m_{\mathrm{s}})`$​$`{}= 0.08`$ and $`I_{\mathrm{sp}} = 280\ \mathrm{s}`$. Neglecting gravity and drag, find the total velocity gain in m/s.
+A two-stage launcher has identical stages. Each has a payload ratio $`\displaystyle \lambda = \frac{m_{\mathrm{PL}}}{m_{\mathrm{p}} + m_{\mathrm{E}}}`$​$`{} = 0.15`$, a structural ratio $`\displaystyle \varepsilon = \frac{m_{\mathrm{E}}}{m_{\mathrm{p}} + m_{\mathrm{E}}}`$​$`{} = 0.08`$ and $`I_{\mathrm{sp}} = 280\ \mathrm{s}`$. Neglecting gravity and drag, find the total velocity gain in m/s.
 
 **Q10 · NAT · 2 marks**
 
-A solid propellant has burn rate $`r = 5\cdot P_{\mathrm{c}}^{0.35}\ \mathrm{mm/s}`$ ($`P_{\mathrm{c}}`$ in MPa), density 1800 kg/m³ and characteristic velocity 1550 m/s. The burning surface is 200 times the throat area. Find the steady chamber pressure in MPa.
+A solid propellant has burn rate $`r = 5\,P_{\mathrm{c}}^{0.35} \ \mathrm{mm/s}`$ ($`P_{\mathrm{c}}`$ in MPa), density 1800 kg/m³ and characteristic velocity 1550 m/s. The burning surface is 200 times the throat area. Find the steady chamber pressure in MPa.
 
 ## Test N6 · Advanced · Full-syllabus GATE-level mock
 
@@ -307,7 +307,7 @@ On a test bed (zero flight speed) a turbojet passes 25 kg/s of air with a fuel�
 
 **Q2 · MCQ · 1 mark**
 
-An impulse turbine stage (symmetric rotor blades) runs at its optimum blade speed with axial exit flow. Its blade loading coefficient $`\psi = \Delta h_0/U^{2}`$ is:
+An impulse turbine stage (symmetric rotor blades) runs at its optimum blade speed with axial exit flow. Its blade loading coefficient $`\displaystyle \psi = \frac{\Delta h_0}{U^{2}}`$ is:
 
 - (A) 0.5
 - (B) 1
@@ -320,7 +320,7 @@ A turbine blade must stay at 1150 K in a gas stream at 1800 K. Coolant air is av
 
 **Q4 · NAT · 1 mark**
 
-Find the stoichiometric fuel–air ratio for methane $`(\mathrm{CH_{4}})`$ burning in air taken as $`\mathrm{O_{2}} + 3.76\mathrm{N_{2}}`$.
+Find the stoichiometric fuel–air ratio for methane $`(\mathrm{CH_{4}})`$ burning in air taken as $`\mathrm{O_{2}} + 3.76 \mathrm{N_{2}}`$.
 
 **Q5 · NAT · 1 mark**
 
@@ -337,7 +337,7 @@ Which statements are correct?
 
 **Q7 · NAT · 2 marks**
 
-A turbojet runs on a sea-level test bed ($`p_{\mathrm{a}} = 101.3\ \mathrm{kPa}`$, $`T_{\mathrm{a}} = 288\ \mathrm{K}`$, no intake loss). Compressor: pressure ratio 5, $`\eta_{\mathrm{c}} = 0.85`$. Combustor: stagnation pressure loss 4% of $`P_{02}`$, $`T_{03} = 1100\ \mathrm{K}`$. Turbine: $`\eta_{\mathrm{t}} = 0.88`$, $`\eta_{\mathrm{m}} = 0.99`$. Convergent nozzle: $`\eta_{\mathrm{j}} = 0.95`$. Use $`c_{p\mathrm{a}} = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma_{\mathrm{a}} = 1.4`$, $`c_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma_{\mathrm{g}} = 4/3`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$, and neglect fuel mass. Find the specific thrust in N·s/kg.
+A turbojet runs on a sea-level test bed ($`P_{\mathrm{a}} = 101.3\ \mathrm{kPa}`$, $`T_{\mathrm{a}} = 288\ \mathrm{K}`$, no intake loss). Compressor: pressure ratio 5, $`\eta_{\mathrm{c}} = 0.85`$. Combustor: stagnation pressure loss 4% of $`P_{02}`$, $`T_{03} = 1100\ \mathrm{K}`$. Turbine: $`\eta_{\mathrm{t}} = 0.88`$, $`\eta_{\mathrm{m}} = 0.99`$. Convergent nozzle: $`\eta_{\mathrm{nz}} = 0.95`$. Use $`C_{p\mathrm{a}} = 1.005\ \mathrm{kJ/kg{\cdot}K}`$, $`\gamma_{\mathrm{a}} = 1.4`$, $`C_{p\mathrm{g}} = 1.148\ \mathrm{kJ/kg{\cdot}K}`$, $`\displaystyle \gamma_{\mathrm{g}} = \frac{4}{3}`$, $`R = 287\ \mathrm{J/kg{\cdot}K}`$, and neglect fuel mass. Find the specific thrust in N·s/kg.
 
 **Q8 · NAT · 2 marks**
 
@@ -349,15 +349,15 @@ A centrifugal compressor impeller has 17 radial vanes and a tip diameter of 0.40
 
 **Q10 · NAT · 2 marks**
 
-A 50% reaction axial turbine stage is designed with flow coefficient $`\phi = C_{\mathrm{a}}/U`$​$`{}= 0.7`$ and blade loading coefficient $`\psi = \Delta h_0/U^{2}`$​$`{}= 1.6`$. Find the nozzle exit angle $`\alpha_2`$ in degrees, measured from the axial direction.
+A 50% reaction axial turbine stage is designed with flow coefficient $`\displaystyle \phi = \frac{C_{\mathrm{a}}}{U}`$​$`{} = 0.7`$ and blade loading coefficient $`\displaystyle \psi = \frac{\Delta h_0}{U^{2}}`$​$`{} = 1.6`$. Find the nozzle exit angle $`\alpha_2`$ in degrees, measured from the axial direction.
 
 **Q11 · NAT · 2 marks**
 
-A rocket nozzle expands gas with $`\gamma = 1.2`$ from a chamber pressure $`P_{\mathrm{c}}`$ to an exit pressure $`p_{\mathrm{e}} = P_{\mathrm{c}}/50`$, and the exit pressure equals ambient. Find the ideal thrust coefficient $`C_{\mathrm{F}}`$.
+A rocket nozzle expands gas with $`\gamma = 1.2`$ from a chamber pressure $`P_{\mathrm{c}}`$ to an exit pressure $`\displaystyle P_{\mathrm{e}} = \frac{P_{\mathrm{c}}}{50}`$, and the exit pressure equals ambient. Find the ideal thrust coefficient $`C_{\mathrm{F}}`$.
 
 **Q12 · NAT · 2 marks**
 
-A long-range aircraft has an overall engine efficiency of 0.35, burns fuel of calorific value 43 MJ/kg and cruises at $`L/D = 17`$. The initial-to-final cruise weight ratio is 1.35. Find the Breguet range in km $`(g = 9.81\ \mathrm{m/s^2})`$.
+A long-range aircraft has an overall engine efficiency of 0.35, burns fuel of calorific value 43 MJ/kg and cruises at $`\displaystyle \frac{L}{D} = 17`$. The initial-to-final cruise weight ratio is 1.35. Find the Breguet range in km $`(g = 9.81\ \mathrm{m/s^2})`$.
 
 ## Test C1 · Basic · Cycles, thrust, efficiencies and engine types
 
@@ -402,10 +402,10 @@ A jet's exhaust velocity is three times the flight speed. Neglecting fuel mass, 
 
 Propulsive efficiency reaches 100% when:
 
-- (A) $`c_{\mathrm{i}} = 0`$
-- (B) $`c_{\mathrm{j}} = c_{\mathrm{i}}`$
-- (C) $`c_{\mathrm{j}} = 2c_{\mathrm{i}}`$
-- (D) $`c_{\mathrm{j}}`$ becomes very large
+- (A) $`C_{\mathrm{i}} = 0`$
+- (B) $`C_{\mathrm{j}} = C_{\mathrm{i}}`$
+- (C) $`C_{\mathrm{j}} = 2 C_{\mathrm{i}}`$
+- (D) $`C_{\mathrm{j}}`$ becomes very large
 
 **Q7 · MCQ · 1 mark**
 
@@ -429,10 +429,10 @@ Which statements about TSFC are correct?
 
 The ram (intake momentum) drag of an air-breathing engine equals:
 
-- (A) $`(p_{\mathrm{e}} - p_{\mathrm{a}})A_{\mathrm{e}}`$
-- (B) $`\dot m_{\mathrm{a}}\cdot c_{\mathrm{i}}`$
-- (C) $`\dot m_{\mathrm{f}}\cdot c_{\mathrm{j}}`$
-- (D) $`\dot m_{\mathrm{a}}\cdot c_{\mathrm{j}}`$
+- (A) $`(P_{\mathrm{e}} - P_{\mathrm{a}}) A_{\mathrm{e}}`$
+- (B) $`\dot m_{\mathrm{a}}\,C_{\mathrm{i}}`$
+- (C) $`\dot m_{\mathrm{f}}\,C_{\mathrm{j}}`$
+- (D) $`\dot m_{\mathrm{a}}\,C_{\mathrm{j}}`$
 
 **Q10 · MCQ · 1 mark**
 
@@ -533,7 +533,7 @@ Why do supersonic intakes use several oblique shocks before a final weak normal 
 For a choked convergent nozzle, which statements are correct?
 
 - (A) Lowering the ambient pressure further raises the mass flow
-- (B) Mass flow is proportional to $`P_{04}/\sqrt{T_{04}}`$ for a given throat area
+- (B) Mass flow is proportional to $`\displaystyle \frac{P_{04}}{\sqrt{T_{04}}}`$ for a given throat area
 - (C) The exit Mach number is 1
 - (D) The exit pressure always equals ambient
 
@@ -548,7 +548,7 @@ At the exit of an under-expanded nozzle you would see:
 
 **Q7 · MCQ · 1 mark**
 
-Compared with an isentropic nozzle, losses $`(\eta_{\mathrm{j}} < 1)`$ make the critical pressure ratio $`P_{04}/P_{\mathrm{c}}`$:
+Compared with an isentropic nozzle, losses $`(\eta_{\mathrm{nz}} < 1)`$ make the critical pressure ratio $`\displaystyle \frac{P_{04}}{P_{\mathrm{c}}}`$:
 
 - (A) Equal to 1
 - (B) Unchanged
@@ -651,7 +651,7 @@ In a 50% reaction axial compressor stage:
 
 **Q3 · MCQ · 1 mark**
 
-The work-done factor $`\lambda`$ of an axial compressor is less than 1 because:
+The work-done factor $`\Omega`$ of an axial compressor is less than 1 because:
 
 - (A) The stator adds work
 - (B) The blades are twisted
@@ -660,7 +660,7 @@ The work-done factor $`\lambda`$ of an axial compressor is less than 1 because:
 
 **Q4 · MCQ · 1 mark**
 
-The de Haller number $`W_2/W_1`$ is kept above about 0.72 to limit:
+The de Haller number $`\displaystyle \frac{W_2}{W_1}`$ is kept above about 0.72 to limit:
 
 - (A) Turbine blade temperature
 - (B) Rotor tip speed
@@ -726,7 +726,7 @@ Which impeller vane shape gives the most stable (falling) work–flow characteri
 For steady adiabatic flow through a rotating blade passage, which quantity is conserved?
 
 - (A) Static enthalpy
-- (B) Rothalpy, $`h + W^{2}/2 - U^{2}/2`$
+- (B) Rothalpy, $`\displaystyle h + \frac{W^{2}}{2} - \frac{U^{2}}{2}`$
 - (C) Stagnation enthalpy $`h_0`$
 - (D) Absolute kinetic energy
 
@@ -803,7 +803,7 @@ The thrust coefficient $`C_{\mathrm{F}}`$ depends mainly on:
 
 - (A) Propellant density
 - (B) Burn rate
-- (C) Nozzle area ratio, $`\gamma`$, and the pressure ratios $`p_{\mathrm{e}}/P_{\mathrm{c}}`$ and $`p_{\mathrm{a}}/P_{\mathrm{c}}`$
+- (C) Nozzle area ratio, $`\gamma`$, and the pressure ratios $`\displaystyle \frac{P_{\mathrm{e}}}{P_{\mathrm{c}}}`$ and $`\displaystyle \frac{P_{\mathrm{a}}}{P_{\mathrm{c}}}`$
 - (D) Chamber temperature only
 
 **Q5 · MSQ · 1 mark**
@@ -835,7 +835,7 @@ Erosive burning in a solid motor is:
 
 **Q8 · MCQ · 1 mark**
 
-$`\mathrm{LOX}/\mathrm{LH_{2}}`$ gives the highest $`I_{\mathrm{sp}}`$ of common chemical propellants mainly because:
+LOX/LH2 gives the highest $`I_{\mathrm{sp}}`$ of common chemical propellants mainly because:
 
 - (A) Its flame temperature is the highest of all
 - (B) Its exhaust has a very low molar mass
@@ -891,9 +891,9 @@ In a convergent–divergent rocket nozzle working at design, the throat Mach num
 
 Which efficiency definitions are correct?
 
-- (A) Compressor: $`\eta_{\mathrm{c}} = (T_{02}' - T_{01})/(T_{02} - T_{01})`$
-- (B) Nozzle: $`\eta_{\mathrm{j}} =`$ actual jet kinetic energy / isentropic jet kinetic energy for the same pressure ratio
-- (C) Intake isentropic efficiency is defined as $`P_{01}/P_{0\mathrm{a}}`$
+- (A) Compressor: $`\displaystyle \eta_{\mathrm{c}} = \frac{T_{02}' - T_{01}}{T_{02} - T_{01}}`$
+- (B) Nozzle: $`\eta_{\mathrm{nz}} =`$ actual jet kinetic energy / isentropic jet kinetic energy for the same pressure ratio
+- (C) Intake isentropic efficiency is defined as $`\displaystyle \frac{P_{01}}{P_{0\mathrm{a}}}`$
 - (D) Turbine: $`\eta_{\mathrm{t}} =`$ actual temperature drop / isentropic temperature drop
 
 **Q15 · MCQ · 1 mark**
